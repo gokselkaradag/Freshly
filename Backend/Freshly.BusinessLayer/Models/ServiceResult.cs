@@ -8,7 +8,7 @@ public record ProductResult(
     Guid Id,
     string Name,
     string ImagePath,
-    DateTime ExpirationDate,
+    DateTime? ExpirationDate,
     string Status,
     DateTime CreatedAt
     );
